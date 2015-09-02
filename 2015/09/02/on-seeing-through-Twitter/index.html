@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      On seeing through Twitter &middot; Jeffrey Moro
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="//cloud.webtype.com/css/41fef12a-5620-463c-81e0-6cee7933f28e.css" rel="stylesheet" type="text/css" />
+
+  <!-- Google Fonts -->
+
+  <!-- JavaScript -->
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="/public/js/myjs.js"></script>
+  <script src="/public/js/retina.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61706511-3', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+
+  <!-- Custom JavaScript files set in YAML front matter -->
+  
+
+  </head>
+
+  <body class="theme-base-0c">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Jeffrey Moro
+        </a>
+      </h1>
+      <p class="lead">Making things & breaking things</p>
+    </div>
+
+    <nav class="sidebar-nav">
+    <!--
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/cv/">CV</a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/portfolio/">Portfolio</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/projects/">Projects</a>
+          
+        
+      
+        
+      
+    -->
+    <a class="sidebar-nav-item" href="/cv">CV</a>
+    <a class="sidebar-nav-item" href="/projects">Projects</a>
+    <a class="sidebar-nav-item" href="/portfolio">Portfolio</a>
+    <a class="sidebar-nav-item" href="/blog">Blog</a>
+    </nav>
+    
+    <!-- Share sheet -->
+    <div class="sharesheet">
+    <a href="http://www.twitter.com/jeffreymoro" target="_blank"><i class="fa fa-fw fa-twitter fa-2x shareicon"></i></a>
+    <a href="http://www.github.com/jeffreymoro" target="_blank"><i class="fa fa-fw fa-github fa-2x shareicon"></i></a>
+    <a href="http://sharedli.st/jeffreymoro" target="_blank"><i class="fa fa-fw fa-bookmark fa-2x shareicon"></i></a>
+    <a href="http://www.linkedin.com/in/jeffreymoro" target="_blank"><i class="fa fa-fw fa-linkedin fa-2x shareicon"></i></a>
+    <a id="showmailbox"><i class="fa fa-fw fa-envelope-o fa-2x shareicon"></i></a>
+    <div id="mailbox">Write me at jm [at] the domain of this website</div> 
+    </div>
+    <div class="credit">
+    <p>&copy; 2015 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a>.</p>
+    </div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">On seeing through Twitter</h1>
+  <span class="post-date">02 Sep 2015 • <a href="/blog/index">Index</a></span>
+  <p>On August 24th, Ars Technica reported that Twitter (the corporation) cut off API access to Twitter (the database) for a number of websites. These websites, <a href="http://politwoops.sunlightfoundation.com">Politwoops</a> and <a href="http://diplotwoops.org">Diplotwoops</a>, were dedicated to archiving and displaying tweets that the official accounts of politicians, diplomats, and other governmental agencies tweeted and then deleted. <a href="http://arstechnica.com/tech-policy/2015/08/twitter-cuts-api-access-to-more-sites-archiving-deleted-politicians-tweets/">From Ars’ article</a>:</p>
+
+<blockquote>
+<p>Twitter has severed API access to more sites that archive deleted tweets from politicians. The most recent targets—Diplotwoops and the international version of Politwoops—spanned at least 30 countries, but Twitter found the sites to be in breach of the service’s privacy policy. </p>
+
+<p>This weekend’s development comes three months after Twitter cut API access for the US’ political tweet watchdog, Politwoops, for the same reason. The Sunlight Foundation ran the US Politwoops, and the Open State Foundation ran 30 international versions of Politwoops in addition to Diplotwoops. Both organizations lashed out at this recent decision.</p>
+</blockquote>
+
+<p>For sites like Diplotwoops and Politwoops, API access is everything. An API (<a href="https://en.wikipedia.org/wiki/Application_programming_interface">application programming interface</a>) is a kind of grammar, a set of instructions for interacting with a computing platform. The Twitter API and the permissions granted through its use were what powered these sites’ ability to access politicians’ live feeds, write tweets to a database, check for later deletions, and then post those deleted tweets to the public Internet. Twitter’s stated reason for shutting these services down was that they were in violation of the API’s terms of use, which <a href="https://dev.twitter.com/overview/terms/agreement-and-policy#3.Update_Respect_Users_Control_and_Privacy">states that developers must</a>: </p>
+
+<blockquote>
+<p>b. Take all reasonable efforts to do the following, provided that when requested by Twitter, you must promptly take such actions:</p>
+
+<p>i. Delete Content that Twitter reports as deleted or expired;</p>
+
+<p>ii. Change treatment of Content that Twitter reports is subject to changed sharing options (e.g., become protected); and</p>
+
+<p>iii. Modify Content that Twitter reports has been modified.</p>
+</blockquote>
+
+<p>A straightforward enough case, right? However, as the Sunlight Foundation, the NGO that ran Politwoops, wrote on its blog when its API access was suspended, Twitter had contacted them about terms of use violations way back in 2012 and had reached an agreement with the Foundation to allow its website to operate unencumbered. <a href="http://sunlightfoundation.com/blog/2015/06/04/eulogy-for-politwoops/">To wit</a>:</p>
+
+<blockquote>
+<p>Days after Politwoops launched in 2012, Twitter contacted the Sunlight Foundation and told us, “Your service violates our API Terms of Service on a fundamental level.” We explained the goals of the project and agreed to create a human curation workflow to ensure that the site screened out corrected low-value tweets like typos, links and Twitter handles. We implemented this layer of journalistic judgment with blessings from Twitter and the site continued.</p>
+</blockquote>
+
+<p>What changed between 2012 and 2015? There’s a feeling online, one that I’ve noticed in a number of channels but principally on Twitter, that something has changed, and not for the better. There’s a sense that surveillance, already a major part of our lives online, has expanded. There’s a sense of futility in the face of the “sharing economy,” as the trends instituted by comically evil corporations like Uber lock more of us in <a href="http://platformcoop.net">part-time, contingent labor</a>. There’s a sense that social media has fulfilled its dark promise as <a href="http://the-toast.net/2015/07/23/an-interview-with-sarah-jeong/">a perfect tool for harassment</a>, and women, people of color, people who speak up against the flow of garbage find themselves attacked and driven into protected accounts—or offline entirely. And there’s a sense that the Internet’s ability to amplify horrid events, to mobilize social activist movements like Arab Spring or Black Lives Matter, has a darker side: one that reifies and insists on witnessing trauma and injustice beyond a human’s capacity to withstand it. </p>
+
+<p>What changed between 2012 and 2015? Trayvon Martin was murdered, Michael Brown was murdered, Renisha McBride was murdered. We had an election, are about to have another one. Twitter gained hundreds of thousands of users, <a href="http://www.theatlantic.com/international/archive/2015/08/twitter-global-social-media/402415/">but they’re not talking</a>. And the money gathers upward, like it always has. Our lives online feel increasingly mandatory, and increasingly exhausting. </p>
+
+<p>Watching Twitter (the corporation) pull the plug on sites like Diplotwoops and Politwoops teaches us what power is when social media networks are concerned. I want to use their example to kick off what I anticipate will be a series of blog posts about Twitter, our utterances on it, and our relationships to each other through it. I agree with those who think that the Internet, as we know and knew it, is at some kind of breaking point. Let’s dig through the rubble together.</p>
+
+<hr>
+
+<p>Over the past month, I’ve been collaborating with Marisa Parham on the beginnings of a project called <em>Still Life in Digital: Black Life, Trauma, and Social Media</em>. The project’s goal, as we envision it, is to push on the rhetoric of the digital making things, relationships, utterances, and lives floaty, disembodied, cloud-like. For Black life, we argue, it does the opposite. Social media overconcretizes lives in ways that bodies can’t sustain. Web Smith writes about this in a Medium post called <a href="https://medium.com/@web/our-truth-is-why-twitter-is-struggling-ffc6a4e02bcd">“Our Truth is Why Twitter is Struggling,”</a> in which he says: </p>
+
+<blockquote>
+<p>Twitter is suffering because it is the most accurate reflection of American society today. It’s not just what’s tweeted, it’s what isn’t tweeted. <strong>Each day, a new hashtag represents a dead child.</strong> Often, there is a filmed murder attached. Often still, we watch it.</p>
+
+<p><strong><em>Dare I say, that Twitter’s problem is its ability to trigger us.</em></strong> Every death reminds us that, even if we’re perfect, we may die today. Every advocacy of an African lion reminds us that African-Americans are traditionally less important than animals. We watch what’s important to our friends and then ask, why is my friendship not important to you?</p>
+</blockquote>
+
+<p>In particular, we’ve been thinking about data visualization: how the graph, map, tree, or chart has gained prominence in the way we talk, write, and share online, and its role in making violence towards Black life constantly visible and explicable in ways that are both necessary and deleterious. It’s been my job over the past month to learn more about techniques for data visualization, how to turn corpuses of data, especially tweets, into compelling visual representations, and to think about what that process of representation entails. Our starting point was this striking heat map of tweets sent out during the week following Michael Brown’s shooting in Ferguson, MO: </p>
+
+<iframe width='100%' height='520' frameborder='0' src='https://srogers.cartodb.com/viz/4a5eb582-23ed-11e4-bd6b-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<p>What are we seeing here? How are individual utterances, and the bodies that produced them, represented in a map like this? What <em>aren’t</em> we seeing?</p>
+
+<p>I quickly became obsessed with the data underneath, with understanding how someone would go about accessing the raw stream of tweets and metadata that powers this or any other visualization. To begin collect tweets for our project, I used the same free, open, public API that powered Diplotwoops and Politwoops. I have to admit, I was a little shocked at what I saw constituted a single tweet. </p>
+
+<p>Here’s one tweet—one of mine, taken from a few days ago: </p>
+
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="lineno"> 1</span> <span class="p">{</span>
+<span class="lineno"> 2</span>     <span class="nt">&quot;contributors&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno"> 3</span>     <span class="nt">&quot;truncated&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno"> 4</span>     <span class="nt">&quot;text&quot;</span><span class="p">:</span> <span class="s2">&quot;interesting reflection on who&#39;s doing the talking and the listening and the ignoring on this website dot com: http://t.co/RVzTR7pDGM&quot;</span><span class="p">,</span> 
+<span class="lineno"> 5</span>     <span class="nt">&quot;is_quote_status&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno"> 6</span>     <span class="nt">&quot;in_reply_to_status_id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno"> 7</span>     <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">636912109163520000</span><span class="p">,</span> 
+<span class="lineno"> 8</span>     <span class="nt">&quot;favorite_count&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> 
+<span class="lineno"> 9</span>     <span class="nt">&quot;source&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;a href=\&quot;http://twitter.com\&quot; rel=\&quot;nofollow\&quot;&gt;Twitter Web Client&lt;/a&gt;&quot;</span><span class="p">,</span> 
+<span class="lineno">10</span>     <span class="nt">&quot;retweeted&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">11</span>     <span class="nt">&quot;coordinates&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno">12</span>     <span class="nt">&quot;entities&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="lineno">13</span>         <span class="nt">&quot;symbols&quot;</span><span class="p">:</span> <span class="p">[],</span> 
+<span class="lineno">14</span>         <span class="nt">&quot;user_mentions&quot;</span><span class="p">:</span> <span class="p">[],</span> 
+<span class="lineno">15</span>         <span class="nt">&quot;hashtags&quot;</span><span class="p">:</span> <span class="p">[],</span> 
+<span class="lineno">16</span>         <span class="nt">&quot;urls&quot;</span><span class="p">:</span> <span class="p">[{</span>
+<span class="lineno">17</span>             <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://t.co/RVzTR7pDGM&quot;</span><span class="p">,</span> 
+<span class="lineno">18</span>             <span class="nt">&quot;indices&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">110</span><span class="p">,</span> <span class="mi">132</span><span class="p">],</span> 
+<span class="lineno">19</span>             <span class="nt">&quot;expanded_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.theatlantic.com/international/archive/2015/08/twitter-global-social-media/402415/&quot;</span><span class="p">,</span> <span class="nt">&quot;display_url&quot;</span><span class="p">:</span> <span class="s2">&quot;theatlantic.com/international/\u2026&quot;</span><span class="p">}]</span>
+<span class="lineno">20</span>         <span class="p">},</span> 
+<span class="lineno">21</span>     <span class="nt">&quot;in_reply_to_screen_name&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno">22</span>     <span class="nt">&quot;in_reply_to_user_id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno">23</span>     <span class="nt">&quot;retweet_count&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> 
+<span class="lineno">24</span>     <span class="nt">&quot;id_str&quot;</span><span class="p">:</span> <span class="s2">&quot;636912109163520000&quot;</span><span class="p">,</span> 
+<span class="lineno">25</span>     <span class="nt">&quot;favorited&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">26</span>     <span class="nt">&quot;user&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="lineno">27</span>         <span class="nt">&quot;follow_request_sent&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">28</span>         <span class="nt">&quot;has_extended_profile&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">29</span>         <span class="nt">&quot;profile_use_background_image&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> 
+<span class="lineno">30</span>         <span class="nt">&quot;default_profile_image&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">31</span>         <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1478357942</span><span class="p">,</span> 
+<span class="lineno">32</span>         <span class="nt">&quot;profile_background_image_url_https&quot;</span><span class="p">:</span> <span class="s2">&quot;https://abs.twimg.com/images/themes/theme1/bg.png&quot;</span><span class="p">,</span> 
+<span class="lineno">33</span>         <span class="nt">&quot;verified&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">34</span>         <span class="nt">&quot;profile_text_color&quot;</span><span class="p">:</span> <span class="s2">&quot;333333&quot;</span><span class="p">,</span> 
+<span class="lineno">35</span>         <span class="nt">&quot;profile_image_url_https&quot;</span><span class="p">:</span> <span class="s2">&quot;https://pbs.twimg.com/profile_images/611518361206423552/ICDpOPuK_normal.jpg&quot;</span><span class="p">,</span> 
+<span class="lineno">36</span>         <span class="nt">&quot;profile_sidebar_fill_color&quot;</span><span class="p">:</span> <span class="s2">&quot;DDEEF6&quot;</span><span class="p">,</span> 
+<span class="lineno">37</span>         <span class="nt">&quot;entities&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="lineno">38</span>             <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="lineno">39</span>                 <span class="nt">&quot;urls&quot;</span><span class="p">:</span> <span class="p">[{</span>
+<span class="lineno">40</span>                     <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://t.co/UuZFn8Zbva&quot;</span><span class="p">,</span> 
+<span class="lineno">41</span>                     <span class="nt">&quot;indices&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">22</span><span class="p">],</span> 
+<span class="lineno">42</span>                     <span class="nt">&quot;expanded_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://jeffreymoro.com&quot;</span><span class="p">,</span> 
+<span class="lineno">43</span>                     <span class="nt">&quot;display_url&quot;</span><span class="p">:</span> <span class="s2">&quot;jeffreymoro.com&quot;</span><span class="p">}]</span>
+<span class="lineno">44</span>             <span class="p">},</span> 
+<span class="lineno">45</span>                 <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="lineno">46</span>                     <span class="nt">&quot;urls&quot;</span><span class="p">:</span> <span class="p">[]}</span>
+<span class="lineno">47</span>         <span class="p">},</span> 
+<span class="lineno">48</span>         <span class="nt">&quot;followers_count&quot;</span><span class="p">:</span> <span class="mi">173</span><span class="p">,</span> 
+<span class="lineno">49</span>         <span class="nt">&quot;profile_sidebar_border_color&quot;</span><span class="p">:</span> <span class="s2">&quot;C0DEED&quot;</span><span class="p">,</span> 
+<span class="lineno">50</span>         <span class="nt">&quot;id_str&quot;</span><span class="p">:</span> <span class="s2">&quot;1478357942&quot;</span><span class="p">,</span> 
+<span class="lineno">51</span>         <span class="nt">&quot;profile_background_color&quot;</span><span class="p">:</span> <span class="s2">&quot;C0DEED&quot;</span><span class="p">,</span> 
+<span class="lineno">52</span>         <span class="nt">&quot;listed_count&quot;</span><span class="p">:</span> <span class="mi">17</span><span class="p">,</span> 
+<span class="lineno">53</span>         <span class="nt">&quot;is_translation_enabled&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">54</span>         <span class="nt">&quot;utc_offset&quot;</span><span class="p">:</span> <span class="mi">10800</span><span class="p">,</span> 
+<span class="lineno">55</span>         <span class="nt">&quot;statuses_count&quot;</span><span class="p">:</span> <span class="mi">1636</span><span class="p">,</span> 
+<span class="lineno">56</span>         <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;electronic literature, media history, software studies // all-purpose post-bac for @5collDH // helps run @thecriticalis&quot;</span><span class="p">,</span> 
+<span class="lineno">57</span>         <span class="nt">&quot;friends_count&quot;</span><span class="p">:</span> <span class="mi">426</span><span class="p">,</span> 
+<span class="lineno">58</span>         <span class="nt">&quot;location&quot;</span><span class="p">:</span> <span class="s2">&quot;Northampton, MA&quot;</span><span class="p">,</span> 
+<span class="lineno">59</span>         <span class="nt">&quot;profile_link_color&quot;</span><span class="p">:</span> <span class="s2">&quot;0084B4&quot;</span><span class="p">,</span> 
+<span class="lineno">60</span>         <span class="nt">&quot;profile_image_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://pbs.twimg.com/profile_images/611518361206423552/ICDpOPuK_normal.jpg&quot;</span><span class="p">,</span> 
+<span class="lineno">61</span>         <span class="nt">&quot;following&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">62</span>         <span class="nt">&quot;geo_enabled&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">63</span>         <span class="nt">&quot;profile_banner_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://pbs.twimg.com/profile_banners/1478357942/1436916421&quot;</span><span class="p">,</span> 
+<span class="lineno">64</span>         <span class="nt">&quot;profile_background_image_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://abs.twimg.com/images/themes/theme1/bg.png&quot;</span><span class="p">,</span> 
+<span class="lineno">65</span>         <span class="nt">&quot;screen_name&quot;</span><span class="p">:</span> <span class="s2">&quot;jeffreymoro&quot;</span><span class="p">,</span> 
+<span class="lineno">66</span>         <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> 
+<span class="lineno">67</span>         <span class="nt">&quot;profile_background_tile&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">68</span>         <span class="nt">&quot;favourites_count&quot;</span><span class="p">:</span> <span class="mi">405</span><span class="p">,</span> 
+<span class="lineno">69</span>         <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Jeffrey Moro&quot;</span><span class="p">,</span> 
+<span class="lineno">70</span>         <span class="nt">&quot;notifications&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">71</span>         <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://t.co/UuZFn8Zbva&quot;</span><span class="p">,</span> 
+<span class="lineno">72</span>         <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;Sun Jun 02 22:34:06 +0000 2013&quot;</span><span class="p">,</span>
+<span class="lineno">73</span>         <span class="nt">&quot;contributors_enabled&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">74</span>         <span class="nt">&quot;time_zone&quot;</span><span class="p">:</span> <span class="s2">&quot;Athens&quot;</span><span class="p">,</span> 
+<span class="lineno">75</span>         <span class="nt">&quot;protected&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">76</span>         <span class="nt">&quot;default_profile&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> 
+<span class="lineno">77</span>         <span class="nt">&quot;is_translator&quot;</span><span class="p">:</span> <span class="kc">false</span>
+<span class="lineno">78</span>     <span class="p">},</span> 
+<span class="lineno">79</span>     <span class="nt">&quot;geo&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno">80</span>     <span class="nt">&quot;in_reply_to_user_id_str&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno">81</span>     <span class="nt">&quot;possibly_sensitive&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
+<span class="lineno">82</span>     <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> 
+<span class="lineno">83</span>     <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;Thu Aug 27 14:44:14 +0000 2015&quot;</span><span class="p">,</span> 
+<span class="lineno">84</span>     <span class="nt">&quot;in_reply_to_status_id_str&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno">85</span>     <span class="nt">&quot;place&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
+<span class="lineno">86</span>     <span class="nt">&quot;metadata&quot;</span><span class="p">:</span> <span class="p">{</span>
+<span class="lineno">87</span>         <span class="nt">&quot;iso_language_code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> 
+<span class="lineno">88</span>         <span class="nt">&quot;result_type&quot;</span><span class="p">:</span> <span class="s2">&quot;recent&quot;</span>
+<span class="lineno">89</span>     <span class="p">}</span>
+<span class="lineno">90</span> <span class="p">}</span></code></pre></div>
+
+<p>It’s overwhelming. It feels like <a href="http://westwing.wikia.com/wiki/Take_Out_the_Trash_Day">that episode of <em>The West Wing</em></a> when, to bamboozle reporters who ask for internal documents from the President’s office, the Bartlet administration releases <em>everything</em>, drowning the press in paper. This 90-line .json is a single tweet. Try working with more than <a href="http://inkdroid.org/2014/08/30/a-ferguson-twitter-archive/">13 million of them</a>.  </p>
+
+<p>Many of these fields are self-explanatory, and after the initial shock dies down, make perfect sense from an architectural standpoint. The tweet’s text, its favorite count, whether it’s even been retweeted, geographic information: if you look at this document from the perspective of someone building a Twitter app, then everything becomes clear. I’m particularly interested in the “entities” field, which contains detailed information about all of the links <em>within</em> a single tweet. One tweet effectively contains the full metadata for all of its relationships, which allows one to map out webs of fractal connections. (If you’re getting a weird <em>Neuromancer</em>-y whiff from all of this, I don’t think it’s unintentional.)</p>
+
+<p>Looking at these streams of data, I realized that visualization is more than charts and graphs. Twitter, the web interface, is itself a visualization, in the sense that it’s a representation in dimensional space of a complex dataset. Twitter, the web interface, relies on visual rhetoric to communication information and produce effects in the same way any well-made chart would. It’s useful to distinguish Twitter-the-interface from Twitter-the-data (and also from Twitter-the-corporation). Doing so allows us to understand (and here the software engineers are perhaps a step ahead of the academics, in the sense that the former has a rich vocabulary of <a href="https://en.wikipedia.org/wiki/Software_as_a_service">software/platform-as-a-service</a> to understand this separation) what Twitter is doing when it pulls the plug on Politwoops or Diplotwoops: it’s implicitly claiming the value of one kind of visualization over another. The dataset is the same; it’s how you look at it that changes. </p>
+
+<p>Our lives online are subject to a regime of sight, of web sites and services that use design techniques to surface information in specific ways. When Web Smith writes that Twitter&#39;s problem is &quot;its ability to trigger us,&quot; this is what he means. We&#39;re given things to see, and little control over how we see them.</p>
+
+<p>Like I wrote above, I imagine this post is the first in an intermittent series over the next few months, exploring visualizations that I end up making for this project, and digging deeper into questions of how lives and bodies, particularly Black lives and Black bodies, are construed online. If you’re interested in learning more about how the Twitter API works (I am so far from an expert that it’s comical I’m even writing this blog post), there’s ample documentation at <a href="http://dev.twitter.com">dev.twitter.com</a>. I recommend going and looking at that site in any case, particularly if you’re a regular Twitter user. It’s useful to see how the services that we use construe themselves on the backend, especially when they diverge radically from how they’d like us to perceive their front-ends. It’ll also give you a sense of how you might go about harvesting tweets for your own use (man, these metaphors get creepy <em>fast</em>), though I hope to write about those processes more soon.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/08/26/visualizing-the-new-rigor/">
+            Visualizing the New Rigor
+            <small>26 Aug 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/08/20/on-amnesia/">
+            On Amnesia
+            <small>20 Aug 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/08/18/this-is-a-blog-post/">
+            This is a blog post
+            <small>18 Aug 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
