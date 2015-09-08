@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Jeffrey Moro</title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <updated>2015-09-07T23:25:43-04:00</updated>
- <id></id>
+ <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
+ <link href="https://jeffreymoro.com/"/>
+ <updated>2015-09-08T00:04:54-04:00</updated>
+ <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>On seeing through Twitter</title>
-   <link href="/2015/09/02/on-seeing-through-Twitter/"/>
+   <link href="https://jeffreymoro.com/2015/09/02/on-seeing-through-Twitter/"/>
    <updated>2015-09-02T00:00:00-04:00</updated>
-   <id>/2015/09/02/on-seeing-through-Twitter</id>
+   <id>https://jeffreymoro.com/2015/09/02/on-seeing-through-Twitter</id>
    <content type="html">&lt;p&gt;On August 24th, Ars Technica reported that Twitter (the corporation) cut off API access to Twitter (the database) for a number of websites. These websites, &lt;a href=&quot;http://politwoops.sunlightfoundation.com&quot;&gt;Politwoops&lt;/a&gt; and &lt;a href=&quot;http://diplotwoops.org&quot;&gt;Diplotwoops&lt;/a&gt;, were dedicated to archiving and displaying tweets that the official accounts of politicians, diplomats, and other governmental agencies tweeted and then deleted. &lt;a href=&quot;http://arstechnica.com/tech-policy/2015/08/twitter-cuts-api-access-to-more-sites-archiving-deleted-politicians-tweets/&quot;&gt;From Ars’ article&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -174,9 +174,9 @@
  
  <entry>
    <title>Visualizing the New Rigor</title>
-   <link href="/2015/08/26/visualizing-the-new-rigor/"/>
+   <link href="https://jeffreymoro.com/2015/08/26/visualizing-the-new-rigor/"/>
    <updated>2015-08-26T00:00:00-04:00</updated>
-   <id>/2015/08/26/visualizing-the-new-rigor</id>
+   <id>https://jeffreymoro.com/2015/08/26/visualizing-the-new-rigor</id>
    <content type="html">&lt;p&gt;Back in May, Five College Digital Humanities organized a conference called &lt;em&gt;The New Rigor&lt;/em&gt;, in which we tackled the question of what kinds of support and evaluation structures would best facilitate making interesting, innovative digital work. The conference was a whole lot of fun, and if you&amp;#39;re interested in some of those conversations, I recommend &lt;a href=&quot;http://thenewrigor.org&quot;&gt;checking out the conference&amp;#39;s website&lt;/a&gt;, which has documentation and notes out the wazoo. I don&amp;#39;t want to talk about evaluating digital projects, though—I want to talk about making silly sproingy toys in Javascript. &lt;/p&gt;
 
 &lt;div id=&quot;sproingcanvas&quot; class=&quot;canvas&quot;&gt;&lt;/div&gt;
@@ -208,9 +208,9 @@
  
  <entry>
    <title>On Amnesia</title>
-   <link href="/2015/08/20/on-amnesia/"/>
+   <link href="https://jeffreymoro.com/2015/08/20/on-amnesia/"/>
    <updated>2015-08-20T00:00:00-04:00</updated>
-   <id>/2015/08/20/on-amnesia</id>
+   <id>https://jeffreymoro.com/2015/08/20/on-amnesia</id>
    <content type="html">&lt;blockquote&gt;
 &lt;p&gt;This is a post that I wrote back in the fall of 2014 for &lt;a href=&quot;http://gaming.thecritical.is&quot;&gt;&lt;em&gt;The Critical Is&lt;/em&gt;&lt;/a&gt;. When setting up this blog, this felt like as good a post as any to port over, given that 1) I&amp;#39;m proud of it and 2) the issues it raises have not gotten any better in the intervening year.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -259,9 +259,9 @@
  
  <entry>
    <title>This is a blog post</title>
-   <link href="/2015/08/18/this-is-a-blog-post/"/>
+   <link href="https://jeffreymoro.com/2015/08/18/this-is-a-blog-post/"/>
    <updated>2015-08-18T00:00:00-04:00</updated>
-   <id>/2015/08/18/this-is-a-blog-post</id>
+   <id>https://jeffreymoro.com/2015/08/18/this-is-a-blog-post</id>
    <content type="html">&lt;p&gt;Hello! This my blog, and this is a blog post. Welcome: I brought snacks.&lt;/p&gt;
 
 &lt;!-- more --&gt;
