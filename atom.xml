@@ -4,13 +4,49 @@
  <title>Jeffrey Moro</title>
  <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
  <link href="https://jeffreymoro.com/"/>
- <updated>2015-09-14T16:28:40-04:00</updated>
+ <updated>2015-09-16T15:02:20-04:00</updated>
  <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>On Memory Editing, Glitches, and Play</title>
+   <link href="https://jeffreymoro.com/2015/09/16/on-picture-processing-and-memory-editing/"/>
+   <updated>2015-09-16T00:00:00-04:00</updated>
+   <id>https://jeffreymoro.com/2015/09/16/on-picture-processing-and-memory-editing</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/img/ppu1.jpg&quot;/&gt;
+&lt;div class=&quot;caption&quot;&gt;Stills from &lt;a href=&quot;http://ohsqueezy.itch.io/ppu&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Picture Processing&lt;/em&gt;&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;A couple of weeks ago, an &lt;a href=&quot;http://ohsqueezy.itch.io&quot;&gt;indepedent game maker&lt;/a&gt; put out a game called &lt;a href=&quot;http://ohsqueezy.itch.io/ppu&quot;&gt;&lt;em&gt;Picture Processing&lt;/em&gt;&lt;/a&gt;, in which you, the player, telepathically commune with a broken NES console and manipulate the system’s memory values to repair error-ridden, glitched-out game screens. (It’s going to get weirder from here on out, y’all, trust me.) Given that this is &lt;em&gt;highly relevant&lt;/em&gt; to a number of my interests, I wanted to put a few words down here about the experience of playing this game and the role of memory editing in video games and digital media as related to play. As I wrote &lt;a href=&quot;http://codex.thecritical.is/strange-creatures/&quot;&gt;in a short meditation&lt;/a&gt; for &lt;a href=&quot;http://www.hastac2015.org/schedule/&quot;&gt;2015&amp;#39;s HASTAC conference&lt;/a&gt;, I’m interested in excavating moments in which the technical apparatus and mathematical underpinning of video games become sites of play beyond the terrain envisioned by the game’s designers. That digital technologies are themselves sites of potential play is uncontroversial: ask any artist, or mathematician, or tinkerer. &lt;em&gt;Picture Processing&lt;/em&gt; gives us something different, a glimpse at a kind of unsanctioned play that takes as its subject the apparatus itself. It&amp;#39;s the exploration of the apparatus that interests me, and the ways in which play becomes a tool for re-envisioning our relationships (should they ever be bifurcated?) to software and hardware. &lt;/p&gt;
+
+&lt;p&gt;At its core, &lt;em&gt;Picture Processing&lt;/em&gt; is a tile-swapping puzzle game, not dissimilar to the physical 3-by-3-picture-grid-with-one-piece-missing games I played in dentists’ offices throughout my youth. In each level, the player swaps individual 8-bit tiles through up to sixteen hexadecimal memory locations until the original game screen is descrambled and “revealed.” &lt;em&gt;Picture Processing&lt;/em&gt; distinguishes itself from other puzzle games through its strategic use of metaphor and abstraction. Rather than manipulate the NES’s picture processing unit (the chip through which the console draws images to a television screen, and the game’s namesake) through assembly code or fiddling with voltages, the game posits the play “meditating” so that psychic “manipulation of the system’s PPU” will be “granted.” Only through a direct “telepathic” link between mind and machine can the player reorganize the broken, glitched game screens. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/ppu2.jpg&quot;/&gt;
+&lt;div class=&quot;caption&quot;&gt;Loading a new &lt;em&gt;Picture Processing&lt;/em&gt; game.&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Picture Processing&lt;/em&gt;’s psychic metaphors are a far cry from the usual way that players access and manipulate a game’s encoded memory—and the game’s goal of restoring broken screens contrasts players’ general motivations. When I was young, in the days before sophisticated digital rights protection technologies, one could buy one of a range of cheat-code devices from any store that sold video games. These devices, which went by names like “Gameshark,” “Game Genie,” or “Action Replay,” served as an intermediary between console and cartridge, and provided the player an interface through which to directly access and manipulate the active flow of data. Most of the time, players used these to beat the system: most of the devices came preloaded with pieces of code that would provide infinite lives, mitigate damage, or skip through difficult levels for many games on the market. Some devices, like one that I had for the Game Boy, had a button on the device itself that could call up a memory editor during active play. Players could come to a certain part in the game, bring up a memory editor, mess around with some hexadecimal values, and return to play, with any number of desired (and, if one wasn’t careful, &lt;em&gt;undesired&lt;/em&gt;) effects. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/ppu3.jpg&quot;/&gt;
+&lt;div class=&quot;caption&quot;&gt;Various kinds of cheat devices.&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;I wrote about these device’s affective relationship to play and gameworlds in that past essay I wrote for HASTAC, &lt;a href=&quot;http://codex.thecritical.is/strange-creatures/&quot;&gt;“Strange Creatures Made of Memory.”&lt;/a&gt; Rather than plagiarize myself, I’ll just quote a section: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Glitches and cheat codes are a violent literacy, a writing an dreading that quite literally destabilizes the text, often to the point of crash and failure. At the same time, they point to a hidden vitality running through each zero and one, and a capacity, if given the right conditions, for the game itself, an agglomeration of software and hardware, to assert a strange life as often as a sudden death. How can we characterize this vitality?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Picture Processing&lt;/em&gt; stands in contrast to the Gameshark: rather than break a game apart so that I can cheat my way to the top or expxlore the strange possibilities of brokenness, &lt;em&gt;Picture Processing&lt;/em&gt; asks us to delve into a game’s code and set right what entropy has made chaos. I can’t help but notice, though, that &lt;em&gt;Picture Processing&lt;/em&gt;’s relationship to play and work is skewed. The game purports to put us in communion with the technology, plugged in à la &lt;em&gt;Neuromancer&lt;/em&gt; or &lt;em&gt;The Matrix&lt;/em&gt;. The game’s textual and paratexual metaphors—“meditating,” “telepathically accessing”—all point to a transhumanist melding of mind and machine. Still, the game’s work is prosaic. Switch tilesets around until you get to the correct arrangement, after which the game rewards you with another screen to rearrange. The work is repetitive, even tedious. One can imagine that it’s the precise kind of work that would be better accomplished by machine, given that the game is conceptually winnable by running through each possible programmatic permutation of hexadecimal variables. &lt;em&gt;Picture Processing&lt;/em&gt; models the labor of a play tester—or maybe just the machine itself?&lt;/p&gt;
+
+&lt;p&gt;The other thread I want to follow here is that of play. When I was a child, messing around with Gamesharks wasn’t just a way of by-passing difficult levels, it was a way to extend the game’s universe past the boundaries envisioned by game designers. The Gameshark was, in its own strange way, my first experience with what we might now term digital “open-world play”: exploring a non-linear, non-task-oriented digital space with no objective other than to see what I could see, and to make the game crash in new and interesting ways. Looking back, it was also my first experinece with rudimentary computer programming.&lt;/p&gt;
+
+&lt;p&gt;A friend of mine has two children: one just into double digits, and one who&amp;#39;s recently graduated into full sentences. She has made a deliberate parenting choice to surround both her children with toys and technologies that both stimulate their creativity and instruct on the increasingly computational and programmatic nature of the contemporary world. I marvel at some of these toys, at their sophistication, their elegance, the extent to which they take complex concepts such as iteration, variability, and programmed architecture and distill them into drag-and-drop shapes and accessible metaphor. I point to these toys not to draw some kind of differential between my friend&amp;#39;s children&amp;#39;s childhood and my own—we&amp;#39;re separated by twenty years, yes, but my childhood was firmly in an age of pervasive digital technology—but to think through the ways that we&amp;#39;ve decided, over the past twenty or thirty years, to give some of our most interesting and accessible technologies for engaging with the capital-D Digital to children. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Picture Processing&lt;/em&gt; is a fun game, don’t get me wrong! I enjoy how it foregrounds things that other games keep hidden: the technological apparatus churning underneath. I just think I might have had even more fun with it if it weren’t leading me somewhere, if it weren’t trying to tell me what to do. If it didn’t ask me to return a game to normal (i.e., to what was written, to what was coded, to what looks reasonable, accessible, natural), but instead opened up a space of confusion, disaster, malleability. After all, it’s only a game, right?&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>These gigantic timescales are truly humiliating...</title>
