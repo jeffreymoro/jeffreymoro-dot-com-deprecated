@@ -4,13 +4,37 @@
  <title>Jeffrey Moro</title>
  <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
  <link href="https://jeffreymoro.com/"/>
- <updated>2015-10-16T09:07:01-04:00</updated>
+ <updated>2015-10-23T12:38:16-04:00</updated>
  <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>On electronic literature, Internet art, and digital galleries</title>
+   <link href="https://jeffreymoro.com/2015/10/23/announcing-elit-netart/"/>
+   <updated>2015-10-23T00:00:00-04:00</updated>
+   <id>https://jeffreymoro.com/2015/10/23/announcing-elit-netart</id>
+   <content type="html">&lt;p&gt;Over the past few months, I&amp;#39;ve been working on and off on &lt;a href=&quot;http://elit.jeffreymoro.com&quot;&gt;elit.jeffreymoro.com&lt;/a&gt;, the digital home and instantiation of my &lt;em&gt;E.LIT / NET.ART&lt;/em&gt; project. And now, after doubling down on the work over the past month, I&amp;#39;m excited to launch it as a useable resource.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/elit-site.jpg&quot;/&gt;
+&lt;div class=&quot;caption&quot;&gt;Look, ma, I made a website!&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;E.LIT / NET.ART&lt;/em&gt; is a loose conglomeration of mini curation projects around electronic literature, Internet art, and digitally-inflected cinema&lt;sup id=&quot;n1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The project started as a series of pop-up IRL galleries across the Five Colleges of Western Massachusetts; I collaborated with libraries to take up residency in spare rooms and computer labs for a day or two and run a weird assortment of e-lit pieces from 1975 to now, with the aim of giving undergrads (and staff and faculty, for that matter) an opportunity to see digital art in the wild, so to speak. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://elit.jeffreymoro.com&quot;&gt;elit.jeffreymoro.com&lt;/a&gt; also hosts information about the course that I taught in January of 2015 on many of the pieces that were in the original gallery series. I&amp;#39;ve gone ahead and put up my &lt;a href=&quot;http://elit.jeffreymoro.com/course&quot;&gt;syllabus&lt;/a&gt; as well, in the hopes that it&amp;#39;s useful as a starting point for anyone looking to learn more about electronic literature. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/elit-site-2.jpg&quot;/&gt;&lt;/p&gt;
+
+&lt;p&gt;The site is (like all sites these days) a continual work-in-progress: rather than continue to host IRL galleries, I&amp;#39;m shifting much of my curatorial energies to this online version of the installation, although it&amp;#39;s certainly not outside the realm of possibility that I put up &lt;em&gt;E.LIT / NET.ART 2.0&lt;/em&gt; in the coming months. In particular, I&amp;#39;m still working on putting together captions for the pieces in the &lt;a href=&quot;http://elit.jeffreymoro.com/screening&quot;&gt;screening&lt;/a&gt; section of the site, and fleshing out the captions for all pieces now that I&amp;#39;m not constrained by a four-by-six inch card. And—I&amp;#39;ve hidden away a couple of easter eggs throughout the site, particularly in the faux-command-line that I&amp;#39;m alternately proud of and exasperated with. Let me know what you find!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;sup id=&quot;f1&quot;&gt;&lt;a href=&quot;#n1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; This is a clunky term, to be sure, but I&amp;#39;ve been toying with it in order to distinguish cinema in which the &lt;em&gt;format&lt;/em&gt; is materially digital (i.e., video rather than celluloid) and cinema that takes up digital aesthetics and politics. Which is not to say that material format isn&amp;#39;t imbricated with those questions—but there&amp;#39;s a broader history of digital cinema before video.&lt;/small&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>"The end of the world has already occurred..."</title>
