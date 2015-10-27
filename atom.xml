@@ -4,7 +4,7 @@
  <title>Jeffrey Moro</title>
  <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
  <link href="https://jeffreymoro.com/"/>
- <updated>2015-10-26T23:24:31-04:00</updated>
+ <updated>2015-10-27T00:19:54-04:00</updated>
  <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
@@ -160,7 +160,7 @@
  
  <entry>
    <title>On seeing through Twitter</title>
-   <link href="https://jeffreymoro.com/2015/09/02/on-seeing-through-Twitter/"/>
+   <link href="https://jeffreymoro.com/2015/09/02/on-seeing-through-twitter/"/>
    <updated>2015-09-02T00:00:00-04:00</updated>
    <id>https://jeffreymoro.com/2015/09/02/on-seeing-through-Twitter</id>
    <content type="html">&lt;p&gt;On August 24th, Ars Technica reported that Twitter (the corporation) cut off API access to Twitter (the database) for a number of websites. These websites, &lt;a href=&quot;http://politwoops.sunlightfoundation.com&quot;&gt;Politwoops&lt;/a&gt; and &lt;a href=&quot;http://diplotwoops.org&quot;&gt;Diplotwoops&lt;/a&gt;, were dedicated to archiving and displaying tweets that the official accounts of politicians, diplomats, and other governmental agencies tweeted and then deleted. &lt;a href=&quot;http://arstechnica.com/tech-policy/2015/08/twitter-cuts-api-access-to-more-sites-archiving-deleted-politicians-tweets/&quot;&gt;From Ars’ article&lt;/a&gt;:&lt;/p&gt;
@@ -215,7 +215,7 @@
 
 &lt;p&gt;Here’s one tweet—one of mine, taken from a few days ago: &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;quot;contributors&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
 &lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;quot;truncated&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
 &lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;quot;text&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;interesting reflection on who&amp;#39;s doing the talking and the listening and the ignoring on this website dot com: http://t.co/RVzTR7pDGM&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
@@ -304,7 +304,7 @@
 &lt;span class=&quot;lineno&quot;&gt;87&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;quot;iso_language_code&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;en&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
 &lt;span class=&quot;lineno&quot;&gt;88&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;quot;result_type&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;recent&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;89&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;90&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;lineno&quot;&gt;90&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;It’s overwhelming. It feels like &lt;a href=&quot;http://westwing.wikia.com/wiki/Take_Out_the_Trash_Day&quot;&gt;that episode of &lt;em&gt;The West Wing&lt;/em&gt;&lt;/a&gt; when, to bamboozle reporters who ask for internal documents from the President’s office, the Bartlet administration releases &lt;em&gt;everything&lt;/em&gt;, drowning the press in paper. This 90-line .json is a single tweet. Try working with more than &lt;a href=&quot;http://inkdroid.org/2014/08/30/a-ferguson-twitter-archive/&quot;&gt;13 million of them&lt;/a&gt;.  &lt;/p&gt;
 
@@ -424,7 +424,7 @@
 
 &lt;p&gt;I also figured out how to include sweet, sweet code: &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;tabsWrapper clear&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;t0&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;tabsWrapper clear&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;t0&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;tabs&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#t1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;EDUCATION&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
@@ -441,7 +441,7 @@
 &lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#t7&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;SKILLS&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;I don&amp;#39;t anticipate using that one that much, although it does make me feel &lt;em&gt;super&lt;/em&gt; cool. &lt;/p&gt;
 
