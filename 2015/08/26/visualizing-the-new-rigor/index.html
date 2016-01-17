@@ -116,6 +116,10 @@
           
         
       
+        
+          
+        
+      
     -->
     <a class="sidebar-nav-item" href="/cv">CV</a>
     <a class="sidebar-nav-item" href="/projects">Projects</a>
@@ -133,7 +137,7 @@
     <div id="mailbox">Write me at jm [at] the domain of this website</div> 
     </div>
     <div class="credit">
-    <p>&copy; 2015 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a>.</p>
+    <p>&copy; 2016 / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a>.</p>
     </div>
   </div>
 </div>
@@ -143,28 +147,28 @@
       <div class="post">
   <h1 class="post-title">Visualizing the New Rigor</h1>
   <span class="post-date">26 Aug 2015 • <a href="/blog/index">Index</a></span>
-  <p>Back in May, Five College Digital Humanities organized a conference called <em>The New Rigor</em>, in which we tackled the question of what kinds of support and evaluation structures would best facilitate making interesting, innovative digital work. The conference was a whole lot of fun, and if you&#39;re interested in some of those conversations, I recommend <a href="http://thenewrigor.org">checking out the conference&#39;s website</a>, which has documentation and notes out the wazoo. I don&#39;t want to talk about evaluating digital projects, though—I want to talk about making silly sproingy toys in Javascript. </p>
+  <p>Back in May, Five College Digital Humanities organized a conference called <em>The New Rigor</em>, in which we tackled the question of what kinds of support and evaluation structures would best facilitate making interesting, innovative digital work. The conference was a whole lot of fun, and if you&rsquo;re interested in some of those conversations, I recommend <a href="http://thenewrigor.org">checking out the conference&rsquo;s website</a>, which has documentation and notes out the wazoo. I don&rsquo;t want to talk about evaluating digital projects, though—I want to talk about making silly sproingy toys in Javascript. </p>
 
 <div id="sproingcanvas" class="canvas"></div>
 
-<p>This is a force-directed graph (named because it simulates physical forces, <em>e.g.</em> sproinginess) represented all of the tweets sent out during <em>The New Rigor</em>, mostly between 1 PM and 1:45 PM on May 2nd, 2015. During the conference, we split participants up into color groups that more or less tracked their role in academia: red for undergraduates, orange for staff members, blue for graduate students, green for tenure-track faculty, and purple for tenured faculty. The colors of each of the nodes (those circles representing tweets) matches the tweeter&#39;s color group. Hovering over the node displays the tweeter&#39;s username, real name (well, their name that they go by on Twitter!) and the text of their tweet. Double-clicking any node highlights it and all nodes connected to it, and of course, you can drag the whole graph around like colorful Slinky. </p>
+<p>This is a force-directed graph (named because it simulates physical forces, <em>e.g.</em> sproinginess) represented all of the tweets sent out during <em>The New Rigor</em>, mostly between 1 PM and 1:45 PM on May 2nd, 2015. During the conference, we split participants up into color groups that more or less tracked their role in academia: red for undergraduates, orange for staff members, blue for graduate students, green for tenure-track faculty, and purple for tenured faculty. The colors of each of the nodes (those circles representing tweets) matches the tweeter&rsquo;s color group. Hovering over the node displays the tweeter&rsquo;s username, real name (well, their name that they go by on Twitter!) and the text of their tweet. Double-clicking any node highlights it and all nodes connected to it, and of course, you can drag the whole graph around like colorful Slinky. </p>
 
-<p>I made this visualization using <a href="http://d3js.org">D3.js</a>, a Javascript library for making (and I paraphrase from the explanations of D3 littered across the World Wide Web) flexible data-driven documents. Charts, graphs, <a href="http://koalastothemax.com">pixel toys that reveal koalas</a>: if it&#39;s made of data and visuals, D3&#39;s got your back. </p>
+<p>I made this visualization using <a href="http://d3js.org">D3.js</a>, a Javascript library for making (and I paraphrase from the explanations of D3 littered across the World Wide Web) flexible data-driven documents. Charts, graphs, <a href="http://koalastothemax.com">pixel toys that reveal koalas</a>: if it&rsquo;s made of data and visuals, D3&rsquo;s got your back. </p>
 
 <figure>
 <img src="/assets/img/koalastothemax-comp.jpg"/>
 <figcaption>To the max!</figcaption>
 </figure>
 
-<p>However, as fun as sproingy data is, it doesn&#39;t really tell us anything interesting about the tweets, other than eyeballing the number of tweets in each color group. The ostensible value of tweets is as a record of the day&#39;s proceedings. How could we get a better sense of what <em>The New Rigor</em> was talking about, from a macro view?</p>
+<p>However, as fun as sproingy data is, it doesn&rsquo;t really tell us anything interesting about the tweets, other than eyeballing the number of tweets in each color group. The ostensible value of tweets is as a record of the day&rsquo;s proceedings. How could we get a better sense of what <em>The New Rigor</em> was talking about, from a macro view?</p>
 
 <div id="timelinecanvas" class="canvas"></div>
 
 <p>Hey, would you look at that! </p>
 
-<p>This is just a slice of all of the tweets, but it encapsulates the majority of all of the tweets tagged with particular color groups, which corresponds nicely to the conference&#39;s primary breakout session. It&#39;s interesting to see which groups tweeted the most (staff, in orange, are the runaway victors), as well as what themes emerged at different points of the conversation. The most common talking point, as I can see it, is the value of failure, and the challenge of learning how to articulate failure as a useful scholarly practice. This is something that I thought about frequently as I put together this blog post: i.e., the value of repeated (endlessly repeated) failure when trying to get embedded D3 to work in my posts!</p>
+<p>This is just a slice of all of the tweets, but it encapsulates the majority of all of the tweets tagged with particular color groups, which corresponds nicely to the conference&rsquo;s primary breakout session. It&rsquo;s interesting to see which groups tweeted the most (staff, in orange, are the runaway victors), as well as what themes emerged at different points of the conversation. The most common talking point, as I can see it, is the value of failure, and the challenge of learning how to articulate failure as a useful scholarly practice. This is something that I thought about frequently as I put together this blog post: i.e., the value of repeated (endlessly repeated) failure when trying to get embedded D3 to work in my posts!</p>
 
-<p>If you&#39;re interested in the full visualizations, you can check them out over on <em>The New Rigor&#39;s</em> <a href="http://thenewrigor.org">website</a>, and if you want to see the source code, you can find that on my GitHub under the <a href="https://github.com/jeffreymoro/newrigor-viz">newrigor-viz</a> repo. I&#39;m currently working on some wordclouds and tweet walls, and will write up another blog post once I get those up and running.</p>
+<p>If you&rsquo;re interested in the full visualizations, you can check them out over on <em>The New Rigor&rsquo;s</em> <a href="http://thenewrigor.org">website</a>, and if you want to see the source code, you can find that on my GitHub under the <a href="https://github.com/jeffreymoro/newrigor-viz">newrigor-viz</a> repo. I&rsquo;m currently working on some wordclouds and tweet walls, and will write up another blog post once I get those up and running.</p>
 
 <script src="/public/js/d3sproing.js"></script>
 
@@ -175,6 +179,15 @@
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/01/17/obsessions-circa-jan17/">
+            A semi-comprehensive list of my obsessions circa January 17th, 2016
+            <small>17 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
     
       <li>
         <h3>
@@ -190,15 +203,6 @@
           <a href="/2015/10/15/the-end-of-the-world/">
             "The end of the world has already occurred..."
             <small>15 Oct 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/2015/09/28/on-yardsales/">
-            On yard sales
-            <small>28 Sep 2015</small>
           </a>
         </h3>
       </li>
