@@ -4,7 +4,7 @@
  <title>Jeffrey Moro</title>
  <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
  <link href="https://jeffreymoro.com/"/>
- <updated>2016-05-03T18:34:22-04:00</updated>
+ <updated>2016-05-09T11:01:21-04:00</updated>
  <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
@@ -36,7 +36,7 @@
 
 &lt;p&gt;2016: Prolific YouTube streamer SethBling releases a video demonstrating how, using a series of glitches and graphical exploits present in the original console release of Super Mario World, he managed to transform the game into an ad hoc computer in and of itself, and with timed jumps and button presses, write three hundred and thirty one bytes of data into the system’s RAM—data corresponding to the original source code of Flappy Bird. The exploit allows players to play a fully-functional port of Flappy Bird inside Super Mario World, grafting the former’s gameplay logic onto the latter’s graphics.&lt;/p&gt;
 
-&lt;p&gt;So what do we make of this, apart from a testament to the powers of obsession? We remember Flappy Bird for all the wrong reasons, it would seem: it’s a terribly-made game, a bizarre success, and one that was forcibly disappeared at the height of its inexplicable popularity. SethBling’s hack produces a hybrid object, a chimaera of logic, plastic, and time, a ghost of one game haunting the shell of another. It reveals “memory” as a function of physical hardware, the rhetoric of software, and the transmission of shared culture. I think of Wendy Chun’s idea of software’s “enduring ephemerality,” the capacity of computational media to “remember” through material regeneration—continual acts of writing and rewriting information across electrical charges and silicon. This hack is rewriting, and its ingenious recycling of those three hundred and thirty one bytes embodies Chun’s claim that “what is not constantly upgraded or ‘migrated’ or both becomes unreadable…The experiences of using—the exact paths of execution—are ephemeral. Information is ‘undead’: neither alive or dead, neither quite present or absent.”&lt;sup id=&quot;n1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;So what do we make of this, apart from a testament to the powers of obsession? We remember Flappy Bird for all the wrong reasons, it would seem: it’s a terribly-made game, a bizarre success, and one that was forcibly disappeared at the height of its inexplicable popularity. SethBling’s hack produces a hybrid object, a chimaera of logic, plastic, and time, a ghost of one game haunting the shell of another. It reveals “memory” as a function of physical hardware, the rhetoric of software, and the transmission of shared culture. I think of Wendy Chun’s idea of software’s “enduring ephemerality,” the capacity of computational media to “remember” through material regeneration—continual acts of writing and rewriting information across electrical charges and silicon. This hack is rewriting, and its ingenious recycling of those three hundred and thirty one bytes embodies Chun’s claim that “what is not constantly upgraded or ‘migrated’ or both becomes unreadable…The experiences of using—the exact paths of execution—are ephemeral. Information is ‘undead’: neither alive or dead, neither quite present or absent.”&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/showcase-snes.jpg&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;caption&quot;&gt;A North American Super Nintendo Entertainment System. Image from &lt;a href=&quot;https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System#/media/File:SNES-Mod1-Console-Set.jpg&quot; target=&quot;_blank&quot;&gt;Wikimedia Commons.&lt;/a&gt;&lt;/div&gt;
@@ -47,7 +47,11 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;small&gt;&lt;sup id=&quot;f1&quot;&gt;&lt;a href=&quot;#n1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Wendy Hui Kyong Chun, &lt;em&gt;Programmed Visions: Software and Memory&lt;/em&gt; (Cambridge: The MIT Press, 2011), 133.&lt;/small&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;&lt;ol&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn:1&quot;&gt;
+        &lt;p&gt;Wendy Hui Kyong Chun, &lt;em&gt;Programmed Visions: Software and Memory&lt;/em&gt; (Cambridge: The MIT Press, 2011), 133.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot;&gt; ↩&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
 </content>
  </entry>
  
@@ -217,20 +221,24 @@
    <id>https://jeffreymoro.com/2015/10/23/announcing-elit-netart</id>
    <content type="html">&lt;p&gt;Over the past few months, I’ve been working on and off on &lt;a href=&quot;http://elit.jeffreymoro.com&quot;&gt;elit.jeffreymoro.com&lt;/a&gt;, the digital home and instantiation of my &lt;em&gt;E.LIT / NET.ART&lt;/em&gt; project. And now, after doubling down on the work over the past month, I’m excited to launch it as a useable resource.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/elit-site.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img border=&quot;1px&quot; src=&quot;/assets/img/elit-site.jpg&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;caption&quot;&gt;Look, ma, I made a website!&lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;E.LIT / NET.ART&lt;/em&gt; is a loose conglomeration of mini curation projects around electronic literature, Internet art, and digitally-inflected cinema&lt;sup id=&quot;n1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The project started as a series of pop-up IRL galleries across the Five Colleges of Western Massachusetts; I collaborated with libraries to take up residency in spare rooms and computer labs for a day or two and run a weird assortment of e-lit pieces from 1975 to now, with the aim of giving undergrads (and staff and faculty, for that matter) an opportunity to see digital art in the wild, so to speak.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;E.LIT / NET.ART&lt;/em&gt; is a loose conglomeration of mini curation projects around electronic literature, Internet art, and digitally-inflected cinema&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The project started as a series of pop-up IRL galleries across the Five Colleges of Western Massachusetts; I collaborated with libraries to take up residency in spare rooms and computer labs for a day or two and run a weird assortment of e-lit pieces from 1975 to now, with the aim of giving undergrads (and staff and faculty, for that matter) an opportunity to see digital art in the wild, so to speak.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://elit.jeffreymoro.com&quot;&gt;elit.jeffreymoro.com&lt;/a&gt; also hosts information about the course that I taught in January of 2015 on many of the pieces that were in the original gallery series. I’ve gone ahead and put up my &lt;a href=&quot;http://elit.jeffreymoro.com/course&quot;&gt;syllabus&lt;/a&gt; as well, in the hopes that it’s useful as a starting point for anyone looking to learn more about electronic literature.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://elit.jeffreymoro.com&quot;&gt;https://elit.jeffreymoro.com&lt;/a&gt; also hosts information about the course that I taught in January of 2015 on many of the pieces that were in the original gallery series. I’ve gone ahead and put up my &lt;a href=&quot;http://elit.jeffreymoro.com/course&quot;&gt;syllabus&lt;/a&gt; as well, in the hopes that it’s useful as a starting point for anyone looking to learn more about electronic literature.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/elit-site-2.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img border=&quot;1px&quot; src=&quot;/assets/img/elit-site-2.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The site is (like all sites these days) a continual work-in-progress: rather than continue to host IRL galleries, I’m shifting much of my curatorial energies to this online version of the installation, although it’s certainly not outside the realm of possibility that I put up &lt;em&gt;E.LIT / NET.ART 2.0&lt;/em&gt; in the coming months. In particular, I’m still working on putting together captions for the pieces in the &lt;a href=&quot;http://elit.jeffreymoro.com/screening&quot;&gt;screening&lt;/a&gt; section of the site, and fleshing out the captions for all pieces now that I’m not constrained by a four-by-six inch card. And—I’ve hidden away a couple of easter eggs throughout the site, particularly in the faux-command-line that I’m alternately proud of and exasperated with. Let me know what you find!&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;small&gt;&lt;sup id=&quot;f1&quot;&gt;&lt;a href=&quot;#n1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; This is a clunky term, to be sure, but I’ve been toying with it in order to distinguish cinema in which the &lt;em&gt;format&lt;/em&gt; is materially digital (i.e., video rather than celluloid) and cinema that takes up digital aesthetics and politics. Which is not to say that material format isn’t imbricated with those questions—but there’s a broader history of digital cinema before video.&lt;/small&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;&lt;ol&gt;
+    &lt;li class=&quot;footnote&quot; id=&quot;fn:1&quot;&gt;
+        &lt;p&gt;This is a clunky term, to be sure, but I&#39;ve been toying with it in order to distinguish cinema in which the &lt;em&gt;format&lt;/em&gt; is materially digital (i.e., video rather than celluloid) and cinema that takes up digital aesthetics and politics. Which is not to say that material format isn&#39;t imbricated with those questions—but there&#39;s a broader history of digital cinema before video.&lt;a href=&quot;#fnref:1&quot; title=&quot;return to article&quot;&gt; ↩&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
 </content>
  </entry>
  
