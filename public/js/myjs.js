@@ -22,7 +22,4 @@ $(document).ready(function(){
     $("#showheaderhidden1").click(function(){
         $("#headerhidden1").slideToggle();
     });
-    $("#showheaderhidden2").click(function(){
-        $("#headerhidden2").slideToggle();
-    });
 });
