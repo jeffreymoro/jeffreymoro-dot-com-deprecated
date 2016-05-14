@@ -4,7 +4,7 @@
  <title>Jeffrey Moro</title>
  <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
  <link href="https://jeffreymoro.com/"/>
- <updated>2016-05-13T17:02:35-04:00</updated>
+ <updated>2016-05-14T10:33:52-04:00</updated>
  <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
@@ -221,7 +221,7 @@
    <id>https://jeffreymoro.com/2015/10/23/announcing-elit-netart</id>
    <content type="html">&lt;p&gt;Over the past few months, I’ve been working on and off on &lt;a href=&quot;http://elit.jeffreymoro.com&quot;&gt;elit.jeffreymoro.com&lt;/a&gt;, the digital home and instantiation of my &lt;em&gt;E.LIT / NET.ART&lt;/em&gt; project. And now, after doubling down on the work over the past month, I’m excited to launch it as a useable resource.&lt;/p&gt;
 
-&lt;p&gt;&lt;img border=&quot;1px&quot; src=&quot;/assets/img/elit-site.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img border=&quot;1px&quot; src=&quot;/assets/img/elit-site-1.jpg&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;caption&quot;&gt;Look, ma, I made a website!&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;E.LIT / NET.ART&lt;/em&gt; is a loose conglomeration of mini curation projects around electronic literature, Internet art, and digitally-inflected cinema&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The project started as a series of pop-up IRL galleries across the Five Colleges of Western Massachusetts; I collaborated with libraries to take up residency in spare rooms and computer labs for a day or two and run a weird assortment of e-lit pieces from 1975 to now, with the aim of giving undergrads (and staff and faculty, for that matter) an opportunity to see digital art in the wild, so to speak.&lt;/p&gt;
@@ -317,19 +317,19 @@
    <link href="https://jeffreymoro.com/2015/09/16/on-picture-processing-and-memory-editing/"/>
    <updated>2015-09-16T00:00:00-04:00</updated>
    <id>https://jeffreymoro.com/2015/09/16/on-picture-processing-and-memory-editing</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/img/ppu1.jpg&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/img/ppu-1.jpg&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;caption&quot;&gt;Stills from &lt;a href=&quot;http://ohsqueezy.itch.io/ppu&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Picture Processing&lt;/em&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;p&gt;A couple of weeks ago, an &lt;a href=&quot;http://ohsqueezy.itch.io&quot;&gt;independent game maker&lt;/a&gt; put out a game called &lt;a href=&quot;http://ohsqueezy.itch.io/ppu&quot;&gt;&lt;em&gt;Picture Processing&lt;/em&gt;&lt;/a&gt;, in which you, the player, telepathically commune with a broken NES console and manipulate the system’s memory values to repair error-ridden, glitched-out game screens. (It’s going to get weirder from here on out, y’all, trust me.) Given that this is &lt;em&gt;highly relevant&lt;/em&gt; to a number of my interests, I wanted to put a few words down here about the experience of playing this game and the role of memory editing in video games and digital media as related to play. As I wrote &lt;a href=&quot;http://codex.thecritical.is/strange-creatures/&quot;&gt;in a short meditation&lt;/a&gt; for &lt;a href=&quot;http://www.hastac2015.org/schedule/&quot;&gt;2015’s HASTAC conference&lt;/a&gt;, I’m interested in excavating moments in which the technical apparatus and mathematical underpinning of video games become sites of play beyond the terrain envisioned by the game’s designers. That digital technologies are themselves sites of potential play is uncontroversial: ask any artist, or mathematician, or tinkerer. &lt;em&gt;Picture Processing&lt;/em&gt; gives us something different, a glimpse at a kind of unsanctioned play that takes as its subject the apparatus itself. It’s the exploration of the apparatus that interests me, and the ways in which play becomes a tool for re-envisioning our relationships (should they ever be bifurcated?) to software and hardware.&lt;/p&gt;
 
 &lt;p&gt;At its core, &lt;em&gt;Picture Processing&lt;/em&gt; is a tile-swapping puzzle game, not dissimilar to the physical 3-by-3-picture-grid-with-one-piece-missing games I played in dentists’ offices throughout my youth. In each level, the player swaps individual 8-bit tiles through up to sixteen hexadecimal memory locations until the original game screen is descrambled and “revealed.” &lt;em&gt;Picture Processing&lt;/em&gt; distinguishes itself from other puzzle games through its strategic use of metaphor and abstraction. Rather than manipulate the NES’s picture processing unit (the chip through which the console draws images to a television screen, and the game’s namesake) through assembly code or fiddling with voltages, the game posits the play “meditating” so that psychic “manipulation of the system’s PPU” will be “granted.” Only through a direct “telepathic” link between mind and machine can the player reorganize the broken, glitched game screens.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/ppu2.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/ppu-2.jpg&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;caption&quot;&gt;Loading a new &lt;em&gt;Picture Processing&lt;/em&gt; game.&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Picture Processing&lt;/em&gt;’s psychic metaphors are a far cry from the usual way that players access and manipulate a game’s encoded memory—and the game’s goal of restoring broken screens contrasts players’ general motivations. When I was young, in the days before sophisticated digital rights protection technologies, one could buy one of a range of cheat-code devices from any store that sold video games. These devices, which went by names like “Gameshark,” “Game Genie,” or “Action Replay,” served as an intermediary between console and cartridge, and provided the player an interface through which to directly access and manipulate the active flow of data. Most of the time, players used these to beat the system: most of the devices came preloaded with pieces of code that would provide infinite lives, mitigate damage, or skip through difficult levels for many games on the market. Some devices, like one that I had for the Game Boy, had a button on the device itself that could call up a memory editor during active play. Players could come to a certain part in the game, bring up a memory editor, mess around with some hexadecimal values, and return to play, with any number of desired (and, if one wasn’t careful, &lt;em&gt;undesired&lt;/em&gt;) effects.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/ppu3.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/ppu-3.jpg&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;caption&quot;&gt;Various kinds of cheat devices.&lt;/div&gt;
 
 &lt;p&gt;I wrote about these device’s affective relationship to play and gameworlds in that past essay I wrote for HASTAC, &lt;a href=&quot;http://codex.thecritical.is/strange-creatures/&quot;&gt;“Strange Creatures Made of Memory.”&lt;/a&gt; Rather than plagiarize myself, I’ll just quote a section:&lt;/p&gt;
@@ -539,7 +539,7 @@
 &lt;p&gt;I made this visualization using &lt;a href=&quot;http://d3js.org&quot;&gt;D3.js&lt;/a&gt;, a Javascript library for making (and I paraphrase from the explanations of D3 littered across the World Wide Web) flexible data-driven documents. Charts, graphs, &lt;a href=&quot;http://koalastothemax.com&quot;&gt;pixel toys that reveal koalas&lt;/a&gt;: if it’s made of data and visuals, D3’s got your back.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/assets/img/koalastothemax-comp.jpg&quot; /&gt;
+&lt;img src=&quot;/assets/img/newrigor-1.jpg&quot; /&gt;
 &lt;figcaption&gt;To the max!&lt;/figcaption&gt;
 &lt;/figure&gt;
 
