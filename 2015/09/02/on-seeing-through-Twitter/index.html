@@ -138,96 +138,186 @@
 
 <p>Here’s one tweet—one of mine, taken from a few days ago:</p>
 
-<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="lineno"> 1</span> <span class="p">{</span>
-<span class="lineno"> 2</span>     <span class="nt">&quot;contributors&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno"> 3</span>     <span class="nt">&quot;truncated&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno"> 4</span>     <span class="nt">&quot;text&quot;</span><span class="p">:</span> <span class="s2">&quot;interesting reflection on who&#39;s doing the talking and the listening and the ignoring on this website dot com: http://t.co/RVzTR7pDGM&quot;</span><span class="p">,</span> 
-<span class="lineno"> 5</span>     <span class="nt">&quot;is_quote_status&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno"> 6</span>     <span class="nt">&quot;in_reply_to_status_id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno"> 7</span>     <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">636912109163520000</span><span class="p">,</span> 
-<span class="lineno"> 8</span>     <span class="nt">&quot;favorite_count&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> 
-<span class="lineno"> 9</span>     <span class="nt">&quot;source&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;a href=\&quot;http://twitter.com\&quot; rel=\&quot;nofollow\&quot;&gt;Twitter Web Client&lt;/a&gt;&quot;</span><span class="p">,</span> 
-<span class="lineno">10</span>     <span class="nt">&quot;retweeted&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">11</span>     <span class="nt">&quot;coordinates&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno">12</span>     <span class="nt">&quot;entities&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="lineno">13</span>         <span class="nt">&quot;symbols&quot;</span><span class="p">:</span> <span class="p">[],</span> 
-<span class="lineno">14</span>         <span class="nt">&quot;user_mentions&quot;</span><span class="p">:</span> <span class="p">[],</span> 
-<span class="lineno">15</span>         <span class="nt">&quot;hashtags&quot;</span><span class="p">:</span> <span class="p">[],</span> 
-<span class="lineno">16</span>         <span class="nt">&quot;urls&quot;</span><span class="p">:</span> <span class="p">[{</span>
-<span class="lineno">17</span>             <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://t.co/RVzTR7pDGM&quot;</span><span class="p">,</span> 
-<span class="lineno">18</span>             <span class="nt">&quot;indices&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">110</span><span class="p">,</span> <span class="mi">132</span><span class="p">],</span> 
-<span class="lineno">19</span>             <span class="nt">&quot;expanded_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.theatlantic.com/international/archive/2015/08/twitter-global-social-media/402415/&quot;</span><span class="p">,</span> <span class="nt">&quot;display_url&quot;</span><span class="p">:</span> <span class="s2">&quot;theatlantic.com/international/\u2026&quot;</span><span class="p">}]</span>
-<span class="lineno">20</span>         <span class="p">},</span> 
-<span class="lineno">21</span>     <span class="nt">&quot;in_reply_to_screen_name&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno">22</span>     <span class="nt">&quot;in_reply_to_user_id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno">23</span>     <span class="nt">&quot;retweet_count&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> 
-<span class="lineno">24</span>     <span class="nt">&quot;id_str&quot;</span><span class="p">:</span> <span class="s2">&quot;636912109163520000&quot;</span><span class="p">,</span> 
-<span class="lineno">25</span>     <span class="nt">&quot;favorited&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">26</span>     <span class="nt">&quot;user&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="lineno">27</span>         <span class="nt">&quot;follow_request_sent&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">28</span>         <span class="nt">&quot;has_extended_profile&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">29</span>         <span class="nt">&quot;profile_use_background_image&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> 
-<span class="lineno">30</span>         <span class="nt">&quot;default_profile_image&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">31</span>         <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1478357942</span><span class="p">,</span> 
-<span class="lineno">32</span>         <span class="nt">&quot;profile_background_image_url_https&quot;</span><span class="p">:</span> <span class="s2">&quot;https://abs.twimg.com/images/themes/theme1/bg.png&quot;</span><span class="p">,</span> 
-<span class="lineno">33</span>         <span class="nt">&quot;verified&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">34</span>         <span class="nt">&quot;profile_text_color&quot;</span><span class="p">:</span> <span class="s2">&quot;333333&quot;</span><span class="p">,</span> 
-<span class="lineno">35</span>         <span class="nt">&quot;profile_image_url_https&quot;</span><span class="p">:</span> <span class="s2">&quot;https://pbs.twimg.com/profile_images/611518361206423552/ICDpOPuK_normal.jpg&quot;</span><span class="p">,</span> 
-<span class="lineno">36</span>         <span class="nt">&quot;profile_sidebar_fill_color&quot;</span><span class="p">:</span> <span class="s2">&quot;DDEEF6&quot;</span><span class="p">,</span> 
-<span class="lineno">37</span>         <span class="nt">&quot;entities&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="lineno">38</span>             <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="lineno">39</span>                 <span class="nt">&quot;urls&quot;</span><span class="p">:</span> <span class="p">[{</span>
-<span class="lineno">40</span>                     <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://t.co/UuZFn8Zbva&quot;</span><span class="p">,</span> 
-<span class="lineno">41</span>                     <span class="nt">&quot;indices&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">22</span><span class="p">],</span> 
-<span class="lineno">42</span>                     <span class="nt">&quot;expanded_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://jeffreymoro.com&quot;</span><span class="p">,</span> 
-<span class="lineno">43</span>                     <span class="nt">&quot;display_url&quot;</span><span class="p">:</span> <span class="s2">&quot;jeffreymoro.com&quot;</span><span class="p">}]</span>
-<span class="lineno">44</span>             <span class="p">},</span> 
-<span class="lineno">45</span>                 <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="lineno">46</span>                     <span class="nt">&quot;urls&quot;</span><span class="p">:</span> <span class="p">[]}</span>
-<span class="lineno">47</span>         <span class="p">},</span> 
-<span class="lineno">48</span>         <span class="nt">&quot;followers_count&quot;</span><span class="p">:</span> <span class="mi">173</span><span class="p">,</span> 
-<span class="lineno">49</span>         <span class="nt">&quot;profile_sidebar_border_color&quot;</span><span class="p">:</span> <span class="s2">&quot;C0DEED&quot;</span><span class="p">,</span> 
-<span class="lineno">50</span>         <span class="nt">&quot;id_str&quot;</span><span class="p">:</span> <span class="s2">&quot;1478357942&quot;</span><span class="p">,</span> 
-<span class="lineno">51</span>         <span class="nt">&quot;profile_background_color&quot;</span><span class="p">:</span> <span class="s2">&quot;C0DEED&quot;</span><span class="p">,</span> 
-<span class="lineno">52</span>         <span class="nt">&quot;listed_count&quot;</span><span class="p">:</span> <span class="mi">17</span><span class="p">,</span> 
-<span class="lineno">53</span>         <span class="nt">&quot;is_translation_enabled&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">54</span>         <span class="nt">&quot;utc_offset&quot;</span><span class="p">:</span> <span class="mi">10800</span><span class="p">,</span> 
-<span class="lineno">55</span>         <span class="nt">&quot;statuses_count&quot;</span><span class="p">:</span> <span class="mi">1636</span><span class="p">,</span> 
-<span class="lineno">56</span>         <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;electronic literature, media history, software studies // all-purpose post-bac for @5collDH // helps run @thecriticalis&quot;</span><span class="p">,</span> 
-<span class="lineno">57</span>         <span class="nt">&quot;friends_count&quot;</span><span class="p">:</span> <span class="mi">426</span><span class="p">,</span> 
-<span class="lineno">58</span>         <span class="nt">&quot;location&quot;</span><span class="p">:</span> <span class="s2">&quot;Northampton, MA&quot;</span><span class="p">,</span> 
-<span class="lineno">59</span>         <span class="nt">&quot;profile_link_color&quot;</span><span class="p">:</span> <span class="s2">&quot;0084B4&quot;</span><span class="p">,</span> 
-<span class="lineno">60</span>         <span class="nt">&quot;profile_image_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://pbs.twimg.com/profile_images/611518361206423552/ICDpOPuK_normal.jpg&quot;</span><span class="p">,</span> 
-<span class="lineno">61</span>         <span class="nt">&quot;following&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">62</span>         <span class="nt">&quot;geo_enabled&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">63</span>         <span class="nt">&quot;profile_banner_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://pbs.twimg.com/profile_banners/1478357942/1436916421&quot;</span><span class="p">,</span> 
-<span class="lineno">64</span>         <span class="nt">&quot;profile_background_image_url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://abs.twimg.com/images/themes/theme1/bg.png&quot;</span><span class="p">,</span> 
-<span class="lineno">65</span>         <span class="nt">&quot;screen_name&quot;</span><span class="p">:</span> <span class="s2">&quot;jeffreymoro&quot;</span><span class="p">,</span> 
-<span class="lineno">66</span>         <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> 
-<span class="lineno">67</span>         <span class="nt">&quot;profile_background_tile&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">68</span>         <span class="nt">&quot;favourites_count&quot;</span><span class="p">:</span> <span class="mi">405</span><span class="p">,</span> 
-<span class="lineno">69</span>         <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Jeffrey Moro&quot;</span><span class="p">,</span> 
-<span class="lineno">70</span>         <span class="nt">&quot;notifications&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">71</span>         <span class="nt">&quot;url&quot;</span><span class="p">:</span> <span class="s2">&quot;http://t.co/UuZFn8Zbva&quot;</span><span class="p">,</span> 
-<span class="lineno">72</span>         <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;Sun Jun 02 22:34:06 +0000 2013&quot;</span><span class="p">,</span>
-<span class="lineno">73</span>         <span class="nt">&quot;contributors_enabled&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">74</span>         <span class="nt">&quot;time_zone&quot;</span><span class="p">:</span> <span class="s2">&quot;Athens&quot;</span><span class="p">,</span> 
-<span class="lineno">75</span>         <span class="nt">&quot;protected&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">76</span>         <span class="nt">&quot;default_profile&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> 
-<span class="lineno">77</span>         <span class="nt">&quot;is_translator&quot;</span><span class="p">:</span> <span class="kc">false</span>
-<span class="lineno">78</span>     <span class="p">},</span> 
-<span class="lineno">79</span>     <span class="nt">&quot;geo&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno">80</span>     <span class="nt">&quot;in_reply_to_user_id_str&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno">81</span>     <span class="nt">&quot;possibly_sensitive&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> 
-<span class="lineno">82</span>     <span class="nt">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> 
-<span class="lineno">83</span>     <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;Thu Aug 27 14:44:14 +0000 2015&quot;</span><span class="p">,</span> 
-<span class="lineno">84</span>     <span class="nt">&quot;in_reply_to_status_id_str&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno">85</span>     <span class="nt">&quot;place&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span> 
-<span class="lineno">86</span>     <span class="nt">&quot;metadata&quot;</span><span class="p">:</span> <span class="p">{</span>
-<span class="lineno">87</span>         <span class="nt">&quot;iso_language_code&quot;</span><span class="p">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> 
-<span class="lineno">88</span>         <span class="nt">&quot;result_type&quot;</span><span class="p">:</span> <span class="s2">&quot;recent&quot;</span>
-<span class="lineno">89</span>     <span class="p">}</span>
-<span class="lineno">90</span> <span class="p">}</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90</pre></td><td class="code"><pre><span class="p">{</span><span class="w">
+    </span><span class="nt">"contributors"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"truncated"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"interesting reflection on who's doing the talking and the listening and the ignoring on this website dot com: http://t.co/RVzTR7pDGM"</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"is_quote_status"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"in_reply_to_status_id"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">636912109163520000</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"favorite_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"source"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;a href=\"http://twitter.com\" rel=\"nofollow\"&gt;Twitter Web Client&lt;/a&gt;"</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"retweeted"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"coordinates"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"entities"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"symbols"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w"> 
+        </span><span class="nt">"user_mentions"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w"> 
+        </span><span class="nt">"hashtags"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w"> 
+        </span><span class="nt">"urls"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+            </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://t.co/RVzTR7pDGM"</span><span class="p">,</span><span class="w"> 
+            </span><span class="nt">"indices"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">110</span><span class="p">,</span><span class="w"> </span><span class="mi">132</span><span class="p">],</span><span class="w"> 
+            </span><span class="nt">"expanded_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.theatlantic.com/international/archive/2015/08/twitter-global-social-media/402415/"</span><span class="p">,</span><span class="w"> </span><span class="nt">"display_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"theatlantic.com/international/\u2026"</span><span class="p">}]</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+    </span><span class="nt">"in_reply_to_screen_name"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"in_reply_to_user_id"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"retweet_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"id_str"</span><span class="p">:</span><span class="w"> </span><span class="s2">"636912109163520000"</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"favorited"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"follow_request_sent"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"has_extended_profile"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_use_background_image"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"default_profile_image"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1478357942</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_background_image_url_https"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://abs.twimg.com/images/themes/theme1/bg.png"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"verified"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_text_color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"333333"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_image_url_https"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://pbs.twimg.com/profile_images/611518361206423552/ICDpOPuK_normal.jpg"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_sidebar_fill_color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DDEEF6"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"entities"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nt">"urls"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+                    </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://t.co/UuZFn8Zbva"</span><span class="p">,</span><span class="w"> 
+                    </span><span class="nt">"indices"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">22</span><span class="p">],</span><span class="w"> 
+                    </span><span class="nt">"expanded_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://jeffreymoro.com"</span><span class="p">,</span><span class="w"> 
+                    </span><span class="nt">"display_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"jeffreymoro.com"</span><span class="p">}]</span><span class="w">
+            </span><span class="p">},</span><span class="w"> 
+                </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                    </span><span class="nt">"urls"</span><span class="p">:</span><span class="w"> </span><span class="p">[]}</span><span class="w">
+        </span><span class="p">},</span><span class="w"> 
+        </span><span class="nt">"followers_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">173</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_sidebar_border_color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C0DEED"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"id_str"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1478357942"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_background_color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C0DEED"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"listed_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">17</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"is_translation_enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"utc_offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">10800</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"statuses_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">1636</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"electronic literature, media history, software studies // all-purpose post-bac for @5collDH // helps run @thecriticalis"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"friends_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">426</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"location"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Northampton, MA"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_link_color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0084B4"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_image_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://pbs.twimg.com/profile_images/611518361206423552/ICDpOPuK_normal.jpg"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"following"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"geo_enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_banner_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://pbs.twimg.com/profile_banners/1478357942/1436916421"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_background_image_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://abs.twimg.com/images/themes/theme1/bg.png"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"screen_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"jeffreymoro"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"en"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"profile_background_tile"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"favourites_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">405</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Jeffrey Moro"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"notifications"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://t.co/UuZFn8Zbva"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sun Jun 02 22:34:06 +0000 2013"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"contributors_enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"time_zone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Athens"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"protected"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"default_profile"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"is_translator"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+    </span><span class="p">},</span><span class="w"> 
+    </span><span class="nt">"geo"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"in_reply_to_user_id_str"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"possibly_sensitive"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"en"</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Thu Aug 27 14:44:14 +0000 2015"</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"in_reply_to_status_id_str"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"place"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> 
+    </span><span class="nt">"metadata"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"iso_language_code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"en"</span><span class="p">,</span><span class="w"> 
+        </span><span class="nt">"result_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"recent"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <p>It’s overwhelming. It feels like <a href="http://westwing.wikia.com/wiki/Take_Out_the_Trash_Day">that episode of <em>The West Wing</em></a> when, to bamboozle reporters who ask for internal documents from the President’s office, the Bartlet administration releases <em>everything</em>, drowning the press in paper. This 90-line .json is a single tweet. Try working with more than <a href="http://inkdroid.org/2014/08/30/a-ferguson-twitter-archive/">13 million of them</a>.</p>
 
