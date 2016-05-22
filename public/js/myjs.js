@@ -52,16 +52,17 @@ $(document).ready(function(){
         $("#project6").slideToggle();
     });
   
-    $("#showProject7").click(function(){
-        $("#project7").slideToggle();
+  
+    $("#showCreative1").click(function(){
+        $("#creative1").slideToggle();
     });
   
-    $("#showProject8").click(function(){
-        $("#project8").slideToggle();
+    $("#showCreative2").click(function(){
+        $("#creative2").slideToggle();
     });
   
-    $("#showProject9").click(function(){
-        $("#project9").slideToggle();
+    $("#showCreative3").click(function(){
+        $("#creative3").slideToggle();
     });
   
   
