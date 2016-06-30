@@ -27,6 +27,10 @@ $(document).ready(function(){
         $("#employment1").slideToggle();
     });
   
+    $("#showEmployment2").click(function(){
+        $("#employment2").slideToggle();
+    });
+  
   
     $("#showProject1").click(function(){
         $("#project1").slideToggle();
