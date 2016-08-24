@@ -4,13 +4,41 @@
  <title>Jeffrey Moro</title>
  <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
  <link href="https://jeffreymoro.com/"/>
- <updated>2016-07-11T08:50:45-04:00</updated>
+ <updated>2016-08-23T20:38:01-04:00</updated>
  <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>On Putting Words on the Internet</title>
+   <link href="https://jeffreymoro.com/2016/08/23/on-putting-words-on-the-internet/"/>
+   <updated>2016-08-23T00:00:00-04:00</updated>
+   <id>https://jeffreymoro.com/2016/08/23/on-putting-words-on-the-internet</id>
+   <content type="html">&lt;p&gt;Enough pixels have already been spilled on 2016, The Worst Year Ever. These pixels have also been thoroughly rejoined by an ostensibly different but ontologically similar set of pixels declaring that &lt;a href=&quot;http://www.slate.com/articles/news_and_politics/history/2016/07/is_2016_the_worst_year_in_history.html&quot;&gt;“no, the Black Death was &lt;em&gt;so&lt;/em&gt; much worse, y’all”&lt;/a&gt;, which is &lt;em&gt;a&lt;/em&gt; point but perhaps not &lt;em&gt;the&lt;/em&gt; point.&lt;/p&gt;
+
+&lt;p&gt;Here at the end of August in a year in which we’ve lost a number of key inspirational artists, another dozen(s) of Black lives to police killings, slogged on (here in the United States at least) with a presidential race that has brought out the worst (or at least the most callous and bitchiest) of most of us, about the only thing that we can truly say for certain is that it’s &lt;a href=&quot;http://www.nytimes.com/interactive/2016/08/20/sunday-review/climate-change-hot-future.html?_r=2&quot;&gt;getting hotter, fast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But another thing we lost in 2016: the blog as a sustainable media venture. Back in 2013 we had a great site, &lt;a href=&quot;http://thedissolve.com&quot;&gt;&lt;em&gt;The Dissolve&lt;/em&gt;&lt;/a&gt;, which had a number of blind spots, particularly around non-Anglo films and hiring women and people of color, but that was a dramatic, sophisticated level up on the press-release-and-breathless-set-photographs that define much of film criticism (or at least conversation) online. Until this July we had &lt;a href=&quot;http://the-toast.net&quot;&gt;&lt;em&gt;The Toast&lt;/em&gt;&lt;/a&gt;, a kind of niche site for thoughtful librarians and medievalists that we used to have a lot more of, until a kind of metrics-based homogenization swept the web. And until yesterday we had &lt;a href=&quot;http://www.gawker.com&quot;&gt;&lt;em&gt;Gawker&lt;/em&gt;&lt;/a&gt;—good old &lt;em&gt;Gawker&lt;/em&gt;, which maybe you hated but you can’t deny defined what it meant to write on the Internet for more than a decade.&lt;/p&gt;
+
+&lt;p&gt;I was not conscious witness to the first wave of blogs—I was too young. The second wave of blogs, perhaps the one that I’m mourning in a way, weren’t blogs you started in the middle of the night and then furiously deleted by morning,&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; but were more like alt-weeklies—strange, specific voices that churned things out a little too fast and a little too loud, and then burned off into the night when the time came and the money ran out. I don’t mourn a publication disappearing—more things should go gently into that good night, I suppose, particularly in media. But what I do mourn is the loss of an atmosphere of possibility—we lost these sites, and others like them, mostly because no one except possibly Google and Facebook have figured out how to make a living writing words on the Internet and letting other people read them. Or we do write on the Internet every day, but just for individuated social networks with particular formal or audience constraints. Hell, I turned analytics off on this site because I was uninterested in knowing precisely how few people are able to find things organically on the Internet these days.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;2016 is not the worst year ever, because the worst year ever is whenever the inevitable heat death of the Universe obliterates what is left of the last dregs of the evolutionary chain to which we (although c’mon, it’s not gonna be us, it’s gonna be roaches or something, all hail the mighty roach) are parents. But 2016 increasingly feels like a Rubicon of…&lt;em&gt;something&lt;/em&gt;. At least we’ll always have dinky sites like this one to whinge about it?&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I had my own share of those—mostly single-entry Blogger sites that I’d anonymously pour drek into, and once tentatively shared the link with a friend, who left a this-is-utter-shit comment on a post (totally warranted, it &lt;em&gt;was&lt;/em&gt; utter shit, but we were also fourteen, so?) and I learned then and there that I was not &lt;em&gt;really&lt;/em&gt; cut out for publishing things On Line. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;RIP Google Reader. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>On Post-Baccalaureate Residencies</title>
@@ -168,9 +196,9 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;journal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;hdiutil attach /path/to/journal.sparsebundle; subl --project /Volumes/journal/journal.sublime-project&#39;&lt;/span&gt;
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;journal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'hdiutil attach /path/to/journal.sparsebundle; subl --project /Volumes/journal/journal.sublime-project'&lt;/span&gt;
 
-&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;eject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;hdiutil detach /Volumes/journal; rsync -avh /path/to/journal.sparsebundle /path/to/backuplocation&#39;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;eject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'hdiutil detach /Volumes/journal; rsync -avh /path/to/journal.sparsebundle /path/to/backuplocation'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;All this means is:&lt;/p&gt;
@@ -557,7 +585,7 @@
 90&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
     &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;contributors&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
     &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;truncated&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;interesting reflection on who&#39;s doing the talking and the listening and the ignoring on this website dot com: http://t.co/RVzTR7pDGM&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;interesting reflection on who's doing the talking and the listening and the ignoring on this website dot com: http://t.co/RVzTR7pDGM&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
     &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;is_quote_status&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
     &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;in_reply_to_status_id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
     &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;636912109163520000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
