@@ -4,13 +4,50 @@
  <title>Jeffrey Moro</title>
  <link href="https://jeffreymoro.com/atom.xml" rel="self"/>
  <link href="https://jeffreymoro.com/"/>
- <updated>2016-09-11T17:13:28-04:00</updated>
+ <updated>2016-11-01T18:12:33-04:00</updated>
  <id>https://jeffreymoro.com</id>
  <author>
    <name>Jeffrey Moro</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title><i>Galatea</i> and the Play of Self-Disclosure</title>
+   <link href="https://jeffreymoro.com/2016/11/01/galatea-and-play/"/>
+   <updated>2016-11-01T00:00:00-04:00</updated>
+   <id>https://jeffreymoro.com/2016/11/01/galatea-and-play</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Another syndicated piece of writing, this time from Matthew Kirschenbaum and Neil Fraistat’s seminar on the nonhuman.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Start with the original “Galatea” myth, codified in Ovid: Pygmalion of Cyprus sculpts a beautiful white statue with which he falls in love.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (The whiteness is important here: both in the name “Galatea,” glossed both as “goddess of calm seas” or “goddess of milk-white,” &lt;em&gt;galaktos&lt;/em&gt; the root of our word &lt;em&gt;galaxy&lt;/em&gt;, the Milky Way, and a play on mother’s milk;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; and in the blankness of white, soon to be literally interpellated, called-into-being.) He begs Aphrodite to bring the statue to life; she does so, and then weds them. This origin story, like &lt;em&gt;Frankenstein&lt;/em&gt;, has proved remarkably durable and malleable, rich in allusive potential and psychosexual suggestion. It has echoed down through Western culture in different forms and names, perhaps most famously in George Bernard Shaw’s 1913 play &lt;em&gt;Pygmalion&lt;/em&gt; and its 1956 stage musical adaptation &lt;em&gt;My Fair Lady&lt;/em&gt; (note the possessive in the title). The allusive web grows more tangled when in 1964 computer scientist Joseph Weizenbaum names his early chatter bot program ELIZA after Shaw’s protagonist. ELIZA uses natural language processing to simulate a Rogerian therapist, feigning “intelligence” by turning user input back into questions, drawing a “conversation” along. Weizenbaum would approve of my scare quotes: he built the program in part to demonstrate the futility of human-computer conversation. He was shocked, however, to find that many people (including, famously, his secretary, who asked him to leave the program and her alone for a private conversation) found the illusion quite persuasive.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Emily Short’s &lt;em&gt;Galatea&lt;/em&gt; (2000) stages and complicates both of these origin stories, through the form of interactive fiction (IF), a computational literature and gaming genre more closely related to a different myth: the Minoan labyrinth.&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; Not for nothing did IF scholar Nick Montfort title his book-length history and poetics of the form &lt;em&gt;Twisty Little Passages&lt;/em&gt;; from the genre’s earliest instantiations in mainframe computer text adventure games like &lt;em&gt;Adventure&lt;/em&gt; (1970) and &lt;em&gt;Zork&lt;/em&gt; (1977–79), interactive fiction almost always means mazes. But Short doesn’t give us a typical maze: &lt;em&gt;Galatea&lt;/em&gt; takes place in just one room, and the archetypal IF compass directional commands only return the provocation, “If you want to leave, just say so.” Nor is &lt;em&gt;Galatea&lt;/em&gt; designed with the typical IF programming, as Montfort observes that the piece’s technical contribution to IF is not any sophistication in recognizing and responding to diverse input, as one might expect from a piece entering into dialogue with the history of chat bots, but rather its “complex discourse model and an emotional model, with variables for Galatea’s mod, her sympathy with the player character, and the amount of tension” (219). Our maze, it would seem, is not spatial, but sensual. Crucially, with its idiosyncratic implementation of &lt;em&gt;generative&lt;/em&gt; branching paths keyed to emotional states rather than spatial triggers, &lt;em&gt;Galatea&lt;/em&gt; destabilizes typical understandings of not only what a maze in IF might be, but how to navigate—players can move forward and around, but never back. The piece characterizes the interaction of intelligences as a constantly shifting terrain, and new possibilities emerge as other doors are shut.&lt;/p&gt;
+
+&lt;p&gt;Of course, unlike real life, we can turn &lt;em&gt;Galatea&lt;/em&gt; off and on again and try for new routes; the game’s profusion of distinct endings would seem to promote this kind of extratextual engagement. Indeed, repetition and duration become key tactics by which to explore Galatea’s “personality.” But the longer that a play session goes, the more obscure, it seems, Galatea-the-character becomes. To quote games theorist Ian Bogost quoting philosopher Graham Harman, “there is always something that recedes—always hidden, inside, inaccessible” (6). Bogost is discussing objects here, and the ways that objects, ontologically-speaking, “recede” from examination, always withholding expressive and relational potential; the suggestive possibility then is that “stuffs [sic] enjoy equal being no matter their size, scale, or order” (6). I take this brief object-orientated ontological turn mostly for its reflective value: these ideas, applied to &lt;em&gt;Galatea&lt;/em&gt;, seem to me to be a useful frame through which to understand how we as players are locked in a kind of mutual interpellation with the interactive object. As we search for Galatea’s &lt;em&gt;Dasein&lt;/em&gt;, we also uncover and admit things about ourselves. &lt;em&gt;Galatea&lt;/em&gt; thematizes this on two levels: the first in the extent to which the player’s avatar is &lt;em&gt;not&lt;/em&gt; blank—as I uncover things about Galatea I-the-player also uncover things about me-the-avatar, the two beginning to merge through the act of &lt;em&gt;parsing&lt;/em&gt;; the second, in the potential for &lt;em&gt;Galatea&lt;/em&gt;/Galatea to operate as a direct descendent of ELIZA, prompting me-as-player to reveal things &lt;em&gt;about&lt;/em&gt; myself &lt;em&gt;to&lt;/em&gt; myself. Example: I was loath to use the “TOUCH,” “SMELL,” or “TASTE” commands—they felt rude and transgressive in ways I was unwilling to engage at first. As I grew frustrated with how Galatea “receded” from my apprehension, I came to realize that paths forward might exist in those actions or thoughts that I “hid” from the program. And really, who is doing the real prompting here? Who is suggesting, and who is responding? Short knows that this question is perhaps the most central to IF as a form, and &lt;em&gt;Galatea&lt;/em&gt;’s achievement might be how it reflects these concerns back out to the players: the “problem” of the game may not be that Galatea cannot understand us, but that we cannot understand Galatea, or perhaps that we cannot understand how to make ourselves understood to her. We can only detect micronic ripples in an emotional substrate running underneath, prompting &lt;em&gt;us&lt;/em&gt; (for who is the prompt really for?) to further action and disclosure.&lt;/p&gt;
+
+&lt;h3 id=&quot;citations-for-the-interested&quot;&gt;Citations for the Interested&lt;/h3&gt;
+
+&lt;p&gt;Bogost, Ian. &lt;em&gt;Alien Phenomenology, or What It’s Like to Be a Thing&lt;/em&gt;. U of Minnesota P, 2012.&lt;/p&gt;
+
+&lt;p&gt;Montfort, Nick. &lt;em&gt;Twisty Little Passages: An Approach to Interactive Fiction&lt;/em&gt;. MIT P, 2003.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.poetryintranslation.com/PITBR/Latin/Metamorph10.htm#anchor_Toc64105570&quot;&gt;Link here.&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Galatea_(mythology)#cite_ref-1&quot;&gt;The link&lt;/a&gt; to the Smith Classics Dictionary seems to be down], but “gala” as milk &lt;a href=&quot;https://en.wiktionary.org/wiki/γάλα#Greek&quot;&gt;seems to check out&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;This is drawn from &lt;a href=&quot;https://en.wikipedia.org/wiki/ELIZA&quot;&gt;https://en.wikipedia.org/wiki/ELIZA&lt;/a&gt;, much of which in turn is drawn from Weizenbaum’s book &lt;em&gt;Computer Power and Human Reason: From Judgment to Calculation&lt;/em&gt;, W. H. Freeman, 1976 (yes, it seems that people taking ELIZA seriously disturbed Weizenbaum so much that he wrote a whole book about it!) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;For an &lt;em&gt;excellent&lt;/em&gt; book on the labyrinth and computing, check out Montfort, Nick et al. &lt;em&gt;10 PRINT CHR$(205.5+RND(1)); : GOTO 10&lt;/em&gt;. MIT P, 2013. &lt;a href=&quot;http://10print.org&quot;&gt;http://10print.org&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Corrupting Books’ Flesh and Blood</title>
