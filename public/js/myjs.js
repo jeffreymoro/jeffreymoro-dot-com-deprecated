@@ -48,14 +48,6 @@ $(document).ready(function(){
         $("#project4").slideToggle();
     });
   
-    $("#showProject5").click(function(){
-        $("#project5").slideToggle();
-    });
-  
-    $("#showProject6").click(function(){
-        $("#project6").slideToggle();
-    });
-  
   
     $("#showCreative1").click(function(){
         $("#creative1").slideToggle();
