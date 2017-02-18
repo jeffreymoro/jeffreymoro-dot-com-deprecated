@@ -99,5 +99,13 @@ $(document).ready(function(){
         $("#award6").slideToggle();
     });
   
+    $("#showAward7").click(function(){
+        $("#award7").slideToggle();
+    });
+  
+    $("#showAward8").click(function(){
+        $("#award8").slideToggle();
+    });
+  
 });
 
